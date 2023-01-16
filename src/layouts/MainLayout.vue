@@ -12,10 +12,9 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          Mon tuto - quasar et animation gsap
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
@@ -28,14 +27,9 @@
         <q-item-label
           header
         >
-          Essential Links
+          Bonjour
         </q-item-label>
 
-        <EssentialLink
-          v-for="link in essentialLinks"
-          :key="link.title"
-          v-bind="link"
-        />
       </q-list>
     </q-drawer>
 

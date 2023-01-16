@@ -1,10 +1,9 @@
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    >
+  <q-page padding>
+    <q-btn
+      color="orange"
+      label="Bon super bouton"
+    ></q-btn>
   </q-page>
 </template>
 
