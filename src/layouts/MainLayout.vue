@@ -28,7 +28,7 @@
         <q-item-label
           header
         >
-          Bonjour
+          <div class="text-center">Bonjour</div>
         </q-item-label>
 
         <q-item clickable v-ripple :to="{name: 'home'}">

@@ -2,6 +2,9 @@
 
 animation avec gsap et quasar
 
+## visit the app
+https://quasar-gsap-animation.web.app
+
 ## Install the dependencies
 ```bash
 yarn
