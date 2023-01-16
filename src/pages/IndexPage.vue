@@ -18,7 +18,6 @@
   import { onMounted } from 'vue'
 
   onMounted(() => {
-    console.log('salut')
     gsap.to(
       '.mon-super-bouton',
       {

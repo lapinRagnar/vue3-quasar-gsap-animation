@@ -31,9 +31,17 @@
           Bonjour
         </q-item-label>
 
+        <q-item clickable v-ripple :to="{name: 'home'}">
+          <q-item-section avatar>
+            <q-avatar color="teal" text-color="white" icon="home" />
+          </q-item-section>
+
+          <q-item-section>Home</q-item-section>
+        </q-item>
+
         <q-item clickable v-ripple :to="{name: 'calculatrice'}">
           <q-item-section avatar>
-            <q-avatar color="teal" text-color="white" icon="bluetooth" />
+            <q-avatar color="teal" text-color="white" icon="fa-solid fa-calculator" />
           </q-item-section>
 
           <q-item-section>Calculatrice</q-item-section>
