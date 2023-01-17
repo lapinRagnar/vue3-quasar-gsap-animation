@@ -1,6 +1,6 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
+  <q-layout view="hHh Lpr lFf">
+    <q-header elevated class="bg-green-6">
       <q-toolbar>
         <q-btn
           flat
@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          Mon tuto - quasar et animation gsap
+            Mon tuto - quasar et animation gsap
         </q-toolbar-title>
 
       </q-toolbar>
